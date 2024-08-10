@@ -1,0 +1,65 @@
+{
+	"type":"ItemTurret",
+ "name":"relsotron",
+ "description":"Dffff...",
+ "health":700,
+ "size": 3,
+ "recoil":20,
+ "coolantMultiplier": 0.21,
+ "maxAmmo": 25,
+ "reload": 0.0000001,
+ "range":4000000000,
+ "inaccuracy":0,
+ "consumes": {
+    "power": 8,
+	
+  },
+ 
+"shoot": {
+	
+"selfDamage": {
+"amount": 100, 
+"radius": 10,
+"delay": 0 
+}
+}
+ 
+ 
+ "rotatespeed":14,
+ "ammoTypes":{
+  "snar":{
+			
+      "speed":500000000,
+      "damage":23000,
+      "reloadMultiplier":5.0,
+      "Width":20,
+	  "range":200,
+      "Height":20,
+      "ammoMultiplier":1,
+      "backColor":"000000",
+	   "maxAmmo": 20,
+       "reload": 0.0000001,
+      "fronColor":"dcd16b"
+  },
+  "snar-2":{
+		"effect":"Blasted",
+      "speed":50000000,
+      "damage":33000,
+      "reloadMultiplier":5.0,
+      "Width":20,
+      "Height":20,
+	  "range":2000000,
+      "ammoMultiplier":1,
+      "backColor":"000000",	   
+	  "maxAmmo": 25,
+       "reload": 0.0000001,
+      "fronColor":"dcd16b"
+  }
+ },
+ "requirements":[
+ {"item":"magnox", "amount":40},
+ {"item":"Bpls", "amount":10}
+ ],
+ "category":"turret",
+ "research":"duo"
+ }

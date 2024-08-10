@@ -1,0 +1,16 @@
+{
+"type":"ConsumeGenerator",
+"name":"Infinite_spase",
+"description":"Energy...",
+"size": 1,
+"health": 3,
+"powerProduction": 0.018,
+"research":{
+	"parent": "processorM1",
+			}
+"category": "power",
+	"requirements":[
+	{"item":"materia","amount":20} ,
+    ],
+
+}

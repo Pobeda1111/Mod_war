@@ -1,0 +1,25 @@
+{
+"type": "Drill",
+"name":"Proto-drill",
+"description":"Diggin meterial...",
+"research":"processorM1",
+"size": 2,
+"tier": 1,
+"rotateSpeed": 1,
+"drillTime": 300,
+"liquidBoostIntensity": 2,
+"drawRim": true,
+"itemCapacity": 10,
+"warmupSpeed": 0.04,
+"updateEffectChance": 0.2,
+"hasLiquids": true,
+"liquidCapacity": 2,
+"consumes": {
+	"power": 0.016
+},
+
+	"requirements":[
+	{"item":"materia","amount":10},
+			],
+	"category":"production",
+}

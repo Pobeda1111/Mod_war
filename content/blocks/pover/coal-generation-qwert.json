@@ -1,0 +1,31 @@
+{
+"type":"ConsumeGenerator",
+"name":"ugolnei generator",
+"description":"coal...",
+"size": 2,
+"health": 200,
+"consumes": {
+   "items": {
+      "items": [
+        { "item": "coal", "amount": 1 },
+      ]
+   }
+},
+"powerProduction": 2.5,
+"generateEffect": {
+	"lifetime": 15,
+	"sizeFrom": 1,
+	"sizeTo": 35,
+	"strokeFrom": 4,
+	"strokeTo": 1,
+	"colorFrom": "73FFAEFF",
+	"colorTo": "57D993FF"
+}
+
+"category": "power",
+	"requirements":[
+	{"item":"iron","amount":10} ,
+	{"item":"magni","amount":10},
+    ],
+
+}

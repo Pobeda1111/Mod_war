@@ -1,0 +1,23 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_spase_brige",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "range": 80,
+  "transportTime": 12,
+  "hasPower": true,
+  "consumes": {
+	"power": 0.016
+},
+"requirements": [
+  
+ {"item":"materia", "amount":40},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"processorM1",
+"researchCost": [
+    {"item":"materia", "amount":400},
+  ]
+}
+}

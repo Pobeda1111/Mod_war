@@ -1,0 +1,21 @@
+{
+"type": "Drill",
+"name":"ИИ Д1",
+"description":"Добыча?...",
+"size": 2,
+"tier": 1,
+"rotateSpeed": 2,
+"hasPower": false,
+"research":"router",
+"hasItems": true,
+"drillTime": 300,
+"liquidBoostIntensity": 1,
+"drawRim": true,
+"itemCapacity": 10,
+"warmupSpeed": 0.2,
+"updateEffectChance": 0.2,
+"requirements": [
+		{"item": "materia", "amount": 10 }
+	],
+	"category":"production",
+}

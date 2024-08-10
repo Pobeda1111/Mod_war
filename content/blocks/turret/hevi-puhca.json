@@ -1,0 +1,44 @@
+{
+	"type":"ItemTurret",
+ "name":"Mega puhka",
+ "description":"Dffff...",
+ "health":900,
+ "size": 3,
+ "recoil":20,
+ "coolantMultiplier": 0.21,
+ "maxAmmo": 25,
+ "reload": 30,
+ "range":400,
+ "inaccuracy":1,
+ "rotatespeed":14,
+ "ammoTypes":{
+  "snar":{
+      "speed":50,
+      "damage":730,
+      "reloadMultiplier":0.21,
+      "Width":20,
+	  "range":200,
+      "Height":20,
+      "ammoMultiplier":4,
+      "backColor":"000000",
+      "fronColor":"dcd16b"
+  },
+  "snar-2":{
+      "speed":50,
+      "damage":730,
+      "reloadMultiplier":0.21,
+      "Width":20,
+      "Height":20,
+	  "range":2000,
+      "ammoMultiplier":4,
+      "backColor":"000000",
+      "fronColor":"dcd16b"
+  }
+ },
+ "requirements":[
+ {"item":"magnox", "amount":40},
+ {"item":"Bpls", "amount":10}
+ ],
+ "category":"turret",
+ "research":"duo"
+ }

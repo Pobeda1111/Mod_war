@@ -1,0 +1,25 @@
+{
+"type":"CoreBlock",
+"name":"Хранилище",
+"description":"..."
+	"health": "200",
+	"tire":1,
+	"size": "1",
+	"armor": "10",
+	"hasItems": true,
+	"itemCapacity": "1000",
+	"unitCapModifier":"1",
+	"unitType": "AIdroid3",
+	"requirements": [
+		{"item": "materia", "amount": 100 }
+	],
+	"rebuildable": false,
+	"CoreZone":false,
+	"requiresCoreZone":false,
+	"category": "effect",
+	"alwaysUnlocked": true,
+	
+    "research": {
+        "AIdroid": true, 
+    }
+}

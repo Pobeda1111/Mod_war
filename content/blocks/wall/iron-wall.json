@@ -1,0 +1,12 @@
+{
+	"name": "iron Wall",
+	"description":"_",
+	"type":"Wall",
+	"health": 370,
+	"size": 1,
+	"requirements":[
+	{"item": "iron", "amount": 10}
+	],
+	"category":"defense",
+	"research":"router"
+}

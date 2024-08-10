@@ -1,0 +1,50 @@
+{
+"type":"ImpactReactor",
+"name":"GN1",
+"description":"Energy-y-y-y-y-y-y-y...",
+"health": 2000,
+  "researchCostMultiplier": 0.3,
+  "itemCapacity": 200,
+  "size": 6,
+  "lightRadius": 30,
+  "speed":60 ,
+  "lightColor": "73FFAEFF",
+  "baseExplosiveness": 5000,
+  "explosionRadius": 70,
+  "explosionDamage": 17,
+  "hasLiquids": true,
+"powerProduction":166666.6666666667,
+  "warmupSpeed": 0.007,
+  "liquidCapacity": 9000,
+  "itemDuration": 70,
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.5,
+  "plasma1": "73FFAEFF",
+  "plasma2": "57D993FF",
+  "consumes": {
+	  "power": 60,
+    "items": {
+      "items": [
+	  {"item":"Antimaterial","amount": "5"}
+      ],
+    },
+    "liquids": {
+	"liquids":[
+		{"liquid": "AI_hlad","amount": 4.1},
+	{"liquid": "AI_thlad","amount": 4.1}
+	]
+  },
+  }
+"research":{"parent":"GE2",
+"requirements":[
+	{"item":"Qantum_optikal_material","amount":2700},
+	{"item":"Teknikal_proto_polimer","amount":21000},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"Qantum_optikal_material","amount":900} ,
+	{"item":"Teknikal_proto_polimer","amount":700},
+    ],
+
+}

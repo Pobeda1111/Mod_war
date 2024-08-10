@@ -1,0 +1,44 @@
+{
+	"type":"ItemTurret",
+ "name":"tank puhka",
+ "description":"Dffff...",
+ "health":1000,
+ "size": 3,
+ "recoil":2,
+ "coolantMultiplier": 0.21,
+ "maxAmmo": 25,
+ "reload": 30,
+ "range":200,
+ "inaccuracy":4,
+ "rotatespeed":4,
+ "ammoTypes":{
+  "snar":{
+      "speed":20,
+      "damage":70,
+      "reloadMultiplier":0.21,
+      "Width":20,
+      "Height":20,
+	  "range":200,
+      "ammoMultiplier":1,
+      "backColor":"000000",
+      "fronColor":"dcd16b"
+  },
+  "snar-2":{
+      "speed":20,
+      "damage":70,
+      "reloadMultiplier":0.21,
+	  "range":2000,
+      "Width":20,
+      "Height":20,
+      "ammoMultiplier":1,
+      "backColor":"000000",
+      "fronColor":"dcd16b"
+  }
+ },
+ "requirements":[
+ {"item":"magnox", "amount":3},
+ {"item":"Bpls", "amount":10}
+ ],
+ "category":"turret",
+ "research":"duo"
+ }

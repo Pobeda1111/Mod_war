@@ -1,0 +1,30 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_neutron_most",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "range": 80,
+  "transportTime": 0.001,
+  "hasPower": true,
+  "itemCapacity": 100,
+  "consumes": {
+	"power": 0.025
+},
+"requirements": [
+  
+ {"item":"Neutron_material", "amount":40},
+ {"item":"Teknikal_proto_polimer", "amount":40},
+ {"item":"Teknikal_polimer", "amount":60},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI_las_most",
+"researchCost": [
+     
+ {"item":"Neutron_material", "amount":120},
+ {"item":"Teknikal_proto_polimer", "amount":120},
+ {"item":"Teknikal_polimer", "amount":180},
+ 
+  ]
+}
+}

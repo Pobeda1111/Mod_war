@@ -1,0 +1,32 @@
+{
+"type":"CoreBlock",
+"name":"Вычислительное Хранилище",
+"description":"11010000100111101101000010110110110100001011100011010000101101001101000010110000110100001011110111010000101110001101000010110101001011100010111000101110..."
+	"health": 20,
+	"size": 1,
+	"tire": 1,
+	"armor": 0,
+	"hasItems": true,
+	"speedMultiplier": 1.2,
+	"range": 10,
+ 
+	"itemCapacity": 100,
+	"unitCapModifier":32,
+	"unitType": "AIdroid3",
+	"requirements": [
+		{"item": "materia", "amount": 100 }
+	],
+	"rebuildable": false,
+	"CoreZone":true,
+	"requiresCoreZone":false,
+	"category": "effect",
+	"alwaysUnlocked": true,
+	
+    "research": {
+		"root": true,
+		"name": "AI_tech",
+		"requiresUnlock": false,
+		"planet": "AI",
+        "AIdroid": true, 
+    }
+}

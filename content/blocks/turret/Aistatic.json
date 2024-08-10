@@ -1,0 +1,63 @@
+{
+	"type":"PowerTurret",
+ "name":"Energu puhka",
+ "description":"Dffff...",
+ "health":1000,
+ "size": 2,
+ "recoil":2,
+ "coolantMultiplier": 0.21,
+ "maxAmmo": 25,
+ "reload": 30,
+ "range":200,
+ "inaccuracy":4,
+ "rotatespeed":4,
+  "consumes": {
+    "power": 40
+  },
+   "shootType": {
+    "type": "BasicBulletType",
+    "absorbable": false,
+    "hittable": false,
+    "shrinkY": 0.2,
+    "shrinkX": 0.01,
+    "speed": 9,
+    "lifetime": 80,
+    "damage": 15,
+    "pierce": true,
+    "maxRange": 200,
+    "status": "slow",
+    "statusDuration": 30,
+    "height": 30,
+    "width": 30,
+    "hitEffect": {
+      "type": "WaveEffect",
+      "lifetime": 15,
+      "sizeFrom": 0,
+      "sizeTo": 25,
+      "strokeFrom": 4,
+      "strokeTo": 0,
+      "colorFrom": "FFDA45FF",
+      "colorTo": "F3E979FF"
+    },
+    "despawnEffect": {
+      "type": "WaveEffect",
+      "lifetime": 15,
+      "sizeFrom": 0,
+      "sizeTo": 25,
+      "strokeFrom": 4,
+      "strokeTo": 0,
+      "colorFrom": "FFDA45FF",
+      "colorTo": "F3E979FF"
+    },
+    "frontColor": "F3E979FF",
+    "backColor": "FFDA45FF"
+  },
+  "hasPower": true,
+
+ "requirements":[
+ {"item":"materia", "amount":3},
+
+ ],
+ "category":"turret",
+ "research":"duo"
+ }

@@ -1,0 +1,52 @@
+{
+"type":"ImpactReactor",
+"name":"GN2",
+"description":"Energy-y-y-y-y-y-y-y...",
+"health": 2000,
+  "researchCostMultiplier": 0.3,
+  "itemCapacity": 200,
+  "size": 2,
+  "lightRadius": 30,
+  "speed":60 ,
+  "lightColor": "73FFAEFF",
+  "baseExplosiveness": 5000,
+  "explosionRadius": 70,
+  "explosionDamage": 17,
+  "hasLiquids": true,
+"powerProduction":333333.3333333333,
+  "warmupSpeed": 0.007,
+  "liquidCapacity": 9000,
+  "itemDuration": 70,
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.5,
+  "plasma1": "73FFAEFF",
+  "plasma2": "57D993FF",
+  "consumes": {
+	  "power": 60,
+    "items": {
+      "items": [
+	  {"item":"Antimaterial","amount": "2"}
+      ],
+    },
+    "liquids": {
+		"liquids":[
+		{"liquid": "AI_hlad","amount": 4.1},
+	{"liquid": "AI_thlad","amount": 4.1}
+	]
+  },
+  }
+"research":{"parent":"GN1",
+"requirements":[
+	{"item":"Brone_material_hevy","amount":600} ,
+	{"item":"Qantum_optikal_material","amount":2400},
+	{"item":"Antimaterial","amount":2400},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"Brone_material_hevy","amount":200} ,
+	{"item":"Qantum_optikal_material","amount":800},
+	{"item":"Antimaterial","amount":800},
+    ],
+
+}

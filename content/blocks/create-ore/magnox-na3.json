@@ -1,0 +1,31 @@
+{
+	"type":"GenericCrafter",
+	"name":"magnetivai peih",
+	"description":"Uraaaaaaaan...",
+	"outputItem":{"item":"magnox","amount":1},
+	"size":2,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"craftItem":6,
+	"consumes": {
+   "power": 1,
+   "liquid": {
+     "liquid": "oil"
+     "amount": 1
+   }
+   "items": {
+      "items": [
+        { "item": "pb", "amount": 1 },
+        { "item": "magni", "amount": 2 }
+      ]
+   }
+},
+
+	"requirements":[
+	{"item":"iron","amount":50},
+	{"item":"magni","amount":80},
+	{"item":"pb","amount":60}
+			],
+	"category":"crafting",
+	}

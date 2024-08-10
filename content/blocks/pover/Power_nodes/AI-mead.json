@@ -1,0 +1,26 @@
+{
+  "type": "PowerNode",
+  "name": "AI-Med",
+  "size": 1,
+  "health": 5,
+  "laserRange": 100,
+  "maxNodes": 1,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    {
+      "item": "materia",
+      "amount": 170
+	}
+  ],
+	
+  "research":{
+	  "parent": "AI-network",
+  "requirements": [
+    {
+      "item": "materia",
+      "amount": 630
+	}
+  ],
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"type":"GenericCrafter",
+	"name":"Дистабилизатор материи",
+	"description":"Это немного опасно...",
+	"outputItem":{"item":"Disable_materia","amount":1},
+	"size":1,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"itemCapacity": 24,
+	"craftItem":4,
+	"consumes": {
+   "power": 7,
+   "items": {
+      "items": [
+        { "item": "materia", "amount": 12 },
+      ]
+   }
+},
+
+	"requirements":[
+	{"item":"materia","amount":600},
+			],
+
+	"research":{"parent":"processorM1",
+"requirements":[
+	{"item":"materia","amount":700},
+			],
+}
+
+	"category": "crafting",
+	}

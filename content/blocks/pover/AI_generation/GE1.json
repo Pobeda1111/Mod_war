@@ -1,0 +1,31 @@
+{
+"type":"ConsumeGenerator",
+"name":"GE1",
+"description":"Energy-y-y-y-y-y-y-y...",
+"health": 2000,
+  "researchCostMultiplier": 0.3,
+  "itemCapacity": 200,
+  "size": 4,
+  "speed":5.0 ,
+"warmupSpeed": 1.0,
+"itemCapacity": 400,
+  "itemDuration": 300.5,
+"powerProduction": 4000.0,
+  "consumes": {
+      "items": [
+	  {"item":"Elemtar_material","amount": 20}
+      ],
+  }
+"research":{"parent":"GT2.1",
+"requirements":[
+	{"item":"Ekto_plast","amount":800},
+	{"item":"Elemtar_material","amount":2200},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"Ekto_plast","amount":200} ,
+	{"item":"Elemtar_material","amount":800},
+    ],
+
+}

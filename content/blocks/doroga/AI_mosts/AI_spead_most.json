@@ -1,0 +1,23 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_spead_most",
+  "description": "A faster bridge on spase",
+  "health": 20,
+  "range": 80,
+  "transportTime": 10,
+  "hasPower": true,
+  "consumes": {
+	"power": 0.032
+},
+"requirements": [
+  
+ {"item":"materia", "amount":40},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI-tranc",
+"researchCost": [
+    {"item":"materia", "amount":400},
+  ]
+}
+}

@@ -1,0 +1,35 @@
+{
+	"type": "massDriver",
+	"size": 4,
+  "name": "AI_qantum_teleporter",
+  "description": "A faster on world",
+  "health": 900,
+  "range": 6000,
+  "reload": 0,
+  "transportTime": 0,
+  "itemCapacity": 10000,
+  "hasPower": true,
+  "bulletSpeed":6000,
+  "knockback": 0,
+  "shootEffect": null,
+  "shootSound":null,
+  "shootEffect": null,
+  "receiveEffect":null ,
+  "consumes": {
+	"power": 0.032,
+},
+"requirements": [
+  
+ {"item":"Qantum_distabilised_material", "amount":70},
+ {"item":"Getraund", "amount":70},
+ {"item":"Neutron_material", "amount":100},
+] 
+"category": "distribution",
+"research":{ "parent":"AI_neutron_most",
+"researchCost": [
+    {"item":"Qantum_distabilised_material", "amount":700},
+	{"item":"Getraund", "amount":210},
+	{"item":"Neutron_material", "amount":300},
+  ]
+}
+}

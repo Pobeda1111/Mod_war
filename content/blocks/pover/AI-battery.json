@@ -1,0 +1,19 @@
+{
+    "type": "Battery",
+    "name": "AI_Battery",
+    "description": "Stores power in materia...",
+	"size": 4,
+    "category": "power",
+    "health": 160,
+    "consumes": {
+        "powerBuffered": "12500.0"
+    },
+   "requirements":[
+	{"item":"materia","amount":200},
+				],
+	"research":{"parent":"AI-gener",
+		"requirements":[
+		{"item":"materia","amount":500},
+						],
+}
+}

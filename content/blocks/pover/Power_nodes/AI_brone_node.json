@@ -1,0 +1,42 @@
+{
+  "type": "PowerNode",
+  "name": "AI_brone_node",
+  "size": 2,
+  "health": 5,
+  "laserRange": 7,
+  "maxNodes": 20,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    {
+      "item": "Brone_material_hevy",
+      "amount":5
+	}
+	{
+      "item": "Teknikal_polimer",
+      "amount": 3
+	}
+	{
+      "item": "Getraund",
+      "amount": 7
+	}
+  ],
+	
+  "research":{
+	  "parent": "AI_las_sillicon",
+  "requirements": [
+    {
+      "item": "Brone_material_hevy",
+      "amount": 15
+	}
+	{
+      "item": "Teknikal_polimer",
+      "amount": 9
+	}
+	{
+      "item": "Getraund",
+      "amount": 21
+	}
+  ],
+	}
+}

@@ -1,0 +1,42 @@
+{
+  "type": "PowerNode",
+  "name": "AI_las_node",
+  "size": 2,
+  "health": 5,
+  "laserRange": 7,
+  "maxNodes": 20,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    {
+      "item": "Brone_material",
+      "amount":3
+	}
+	{
+      "item": "Teknikal_materia",
+      "amount": 10
+	}
+	{
+      "item": "Getraund",
+      "amount": 7
+	}
+  ],
+	
+  "research":{
+	  "parent": "AI_node_sillicon",
+  "requirements": [
+    {
+      "item": "Brone_material",
+      "amount": 9
+	}
+	{
+      "item": "Teknikal_materia",
+      "amount": 30
+	}
+	{
+      "item": "Getraund",
+      "amount": 21
+	}
+  ],
+	}
+}

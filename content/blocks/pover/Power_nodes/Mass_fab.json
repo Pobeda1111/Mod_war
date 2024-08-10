@@ -1,0 +1,39 @@
+{
+  "type": "PowerNode",
+  "name": "AI-Net",
+  "size": 3,
+  "health": 17,
+  "laserRange": 15,
+  "maxNodes": 705,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+     {
+      "item": "Teknikal_materia",
+      "amount": 3
+	},
+	{
+      "item": "Getraund",
+      "amount": 7
+	}
+  ],
+	
+  "research":{
+	  "parent": "AI_node_sillicon",
+  "requirements": [
+    {
+      "item": "Teknikal_materia",
+      "amount": 12
+	},
+	{
+      "item": "Getraund",
+      "amount": 21
+	}
+  ],
+	}
+	
+	"consumes": 
+		{
+			"power": 10.0
+		},
+}

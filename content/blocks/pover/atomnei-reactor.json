@@ -1,0 +1,31 @@
+{
+"type":"ConsumeGenerator",
+"name":"atomic-reactor37",
+"description":"boom...",
+"size": 3,
+"health": 1200,
+"consumes": {
+   "items": {
+      "items": [
+        { "item": "U-sterg", "amount": 1 },
+      ]
+   }
+},
+"powerProduction": 24.5,
+"generateEffect": {
+	"lifetime": 15,
+	"sizeFrom": 1,
+	"sizeTo": 35,
+	"strokeFrom": 4,
+	"strokeTo": 1,
+	"colorFrom": "73FFAEFF",
+	"colorTo": "57D993FF"
+}
+
+"category": "power",
+	"requirements":[
+	{"item":"iron","amount":10} ,
+	{"item":"magni","amount":10},
+    ],
+
+}

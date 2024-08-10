@@ -1,0 +1,29 @@
+{
+	"type":"GenericCrafter",
+	"name":"patron big",
+	"description":"Not stop...",
+	
+	"size":4,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"craftItem":6,
+	"outputItem":{"item":"snar-2","amount":1},
+	"consumes": {
+   "power": 3,
+   "items": {
+      "items": [
+	    {"item": "iron", "amount": 2 },
+	    {"item": "magni", "amount": 2 },
+        { "item": "topporoh", "amount": 2 },
+        { "item": "wolfr", "amount": 1 }
+      ]
+   }
+}, 
+	"requirements":[
+	{"item":"iron","amount":70},
+	{"item":"sr","amount":40},
+	{"item":"pb","amount":40}
+			],
+	"category":"crafting",
+	}

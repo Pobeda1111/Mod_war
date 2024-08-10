@@ -1,0 +1,29 @@
+{
+"type": "Drill",
+"name":"Plasm_drill",
+"description":"Plasming meterial...",
+"research":{"parent":"Ai_drill",
+"requirements":[
+	{"item":"materia","amount":70},
+			],
+}
+"size": 3,
+"tier": 2,
+"rotateSpeed": 3,
+"drillTime": 100,
+"liquidBoostIntensity": 2,
+"drawRim": true,
+"itemCapacity": 6,
+"warmupSpeed": 0.9,
+"updateEffectChance": 0.9,
+"hasLiquids": true,
+"liquidCapacity": 2,
+"consumes": {
+	"power": 20,
+},
+
+	"requirements":[
+	{"item":"materia","amount":70},
+			],
+	"category":"production",
+}

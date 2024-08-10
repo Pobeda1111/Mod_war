@@ -1,0 +1,25 @@
+{
+	"type":"GenericCrafter",
+	"name":"Sernei bassein",
+	"description":"sera...",
+	"outputItem":{"item":"sera","amount":2},
+	"size":2,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"craftItem":6,
+	"consumes": {
+   "power": 3,
+   "liquid": {
+     "liquid": "oil"
+     "amount": 4
+   }
+},
+
+	"requirements":[
+	{"item":"iron","amount":50},
+	{"item":"magni","amount":80},
+	{"item":"pb","amount":60}
+			],
+	"category":"crafting",
+	}

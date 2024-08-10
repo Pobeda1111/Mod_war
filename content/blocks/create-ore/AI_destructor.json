@@ -1,0 +1,34 @@
+{
+	"type":"GenericCrafter",
+	"name":"Деконструктор материи",
+	"description":"Это не опасно...",
+	"outputItem":{"item":"Getraund","amount":1},
+	"size":1,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"itemCapacity": 24,
+	"craftItem":1,
+	"consumes": {
+   "power": 4,
+   "items": {
+      "items": [
+        { "item": "Disable_materia", "amount": 1.4873 },
+      ]
+   }
+},
+
+	"requirements":[
+	{"item":"materia","amount":400},
+	{"item":"Disable_materia","amount":200},
+			],
+
+	"research":{"parent":"AI_distable",
+"requirements":[
+	{"item":"materia","amount":2000},
+	{"item":"Disable_materia","amount":1000},
+			],
+}
+
+	"category": "crafting",
+	}

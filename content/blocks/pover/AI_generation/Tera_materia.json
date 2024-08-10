@@ -1,0 +1,30 @@
+{
+"type":"ConsumeGenerator",
+"name":"Tera_gen",
+"description":"Energy...",
+"size": 3,
+"health": 70,
+"consumes": {
+   "items": {
+      "items": [
+        { "item": "Disable_materia", "amount": 4 },
+      ]
+	  
+   }
+},
+"speed":5.0 ,
+"warmupSpeed": 1.0,
+  "itemDuration": 400.4,
+"powerProduction": 1.4,
+"research":{"parent":"AI-gener",
+"requirements":[
+	{"item":"Disable_materia","amount":400},
+	{"item":"materia","amount":900},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"materia","amount":900} ,
+    ],
+
+}

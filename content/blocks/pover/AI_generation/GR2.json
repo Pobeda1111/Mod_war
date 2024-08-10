@@ -1,0 +1,49 @@
+{ 
+"type": "ImpactReactor",
+"name":"GR2",
+"description":"Energy-y-y-y-y-y-y-y...",
+"health": 2000,
+  "researchCostMultiplier": 0.3,
+  "itemCapacity": 200,
+  "size": 6,
+  "lightRadius": 30,
+  "speed":60 ,
+  "lightColor": "73FFAEFF",
+  "baseExplosiveness": 5000,
+  "explosionRadius": 7,
+  "explosionDamage": 17,
+  "hasLiquids": true,
+"powerProduction":333.3333337,
+  "warmupSpeed": 0.01,
+  "liquidCapacity": 9000,
+  "itemDuration": 70,
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.5,
+  "plasma1": "73FFAEFF",
+  "plasma2": "57D993FF",
+  "consumes": {
+	  "power": 2,
+    "items": {
+      "items": [
+	  {"item":"Disable_materia","amount": "20"}
+	  { "item": "Getraund", "amount": "2" },
+      ],
+    },
+    "liquid": {
+      "liquid": "AI_hlad",
+      "amount": 0.3
+    }
+  },
+"research":{"parent":"GR1",
+"requirements":[
+	{"item":"Getraund","amount":2000},
+	{"item":"Teknikal_materia","amount":2200},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"Getraund","amount":600} ,
+	{"item":"Teknikal_materia","amount":600},
+    ],
+
+}

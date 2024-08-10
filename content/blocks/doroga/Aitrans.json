@@ -1,0 +1,38 @@
+{
+	"type": "Conveyor",
+"name":"TransConweyor",
+"description":"Infiniti materia...",
+"health": 20,
+"speed": 0.07
+"itemCapacity": 1,
+"size":1,
+"consumes": {
+	"power": 0.006
+},
+
+"loadEffect": {
+	"type": "ParticleEffect",
+	"line": true ,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+"unloadEffect": {
+	"type": "ParticleEffect",
+	"line": true,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+ "requirements":[
+ {"item":"materia","amount":1}
+ ],
+"category": "distribution",
+"research": "AI-tranc"
+}

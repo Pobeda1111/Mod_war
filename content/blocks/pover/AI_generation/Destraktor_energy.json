@@ -1,0 +1,32 @@
+{
+"type":"ConsumeGenerator",
+"name":"Destraktor_energy",
+"description":"Energy-y-y-y-y-y-y-y...",
+"size": 2,
+"health": 20,
+"consumes": {
+   "items": {
+      "items": [
+        { "item": "Getraund", "amount": 8 },
+      ]
+	  
+   }
+},
+"speed":5.0 ,
+"warmupSpeed": 1.0,
+"itemCapacity": 400,
+  "itemDuration": 300.5,
+"powerProduction": 43.4,
+"research":{"parent":"Tera_materia",
+"requirements":[
+	{"item":"Disable_materia","amount":800},
+	{"item":"materia","amount":2200},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"materia","amount":1000} ,
+	{"item":"Disable_materia","amount":500},
+    ],
+
+}

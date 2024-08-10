@@ -1,0 +1,31 @@
+{
+"type":"ConsumeGenerator",
+"name":"GM1",
+"description":"Energy-y-y-y-y-y-y-y...",
+"health": 2000,
+  "researchCostMultiplier": 0.3,
+  "itemCapacity": 200,
+  "size": 5,
+  "speed":5.0 ,
+"warmupSpeed": 1.0,
+"itemCapacity": 400,
+  "itemDuration": 300.5,
+"powerProduction": 500.0,
+  "consumes": {
+      "items": [
+	  {"item":"materia","amount": 100}
+      ],
+  }
+"research":{"parent":"GT2.1",
+"requirements":[
+	{"item":"Pito_qark_mateirial","amount":800},
+	{"item":"Neutron_material","amount":2200},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"Pito_qark_mateirial","amount":200} ,
+	{"item":"Neutron_material","amount":800},
+    ],
+
+}

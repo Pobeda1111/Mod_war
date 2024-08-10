@@ -1,0 +1,26 @@
+{
+  "type": "PowerNode",
+  "name": "AI-Net",
+  "size": 1,
+  "health": 7,
+  "laserRange": 10,
+  "maxNodes": 3,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    {
+      "item": "materia",
+      "amount": 13
+	}
+  ],
+	
+  "research":{
+	  "parent": "Spase-gener",
+  "requirements": [
+    {
+      "item": "materia",
+      "amount": 13
+	}
+  ],
+	}
+}

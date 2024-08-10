@@ -1,0 +1,43 @@
+{
+	"type":"ItemTurret",
+ "name":"Snaiper",
+ "description":"Brfrfrfrfrfrf...",
+ "health":100,
+ "size": 3,
+ "recoil":6,
+ "coolantMultiplier": 0.1,
+ "reloadTime":200,
+ "range":2000,
+ "inaccuracy":10,
+ "rotatespeed":12,
+ "ammoTypes":{
+  "snar":{
+      "speed":40,
+      "damage":40,
+      "reloadMultiplier":0.3,
+      "Width":5,
+	  "range":200,
+      "Height":9,
+      "ammoMultiplier":1,
+      "backColor":"000000",
+      "fronColor":"dcd16b"
+  },
+  "iron":{
+     "speed":40,
+     "damage":10,
+     "reloadMultiplier":0.2,
+     "Width":7,
+	 "range":20,
+     "Height":9,
+     "ammoMultiplier":1,
+     "backColor":"000000",
+     "fronColor":"dcd16b"
+  }
+ },
+ "requirements":[
+ {"item":"iron", "amount":20},
+ {"item":"magni", "amount":10}
+ ],
+ "category":"turret",
+ "research":"duo"
+ }

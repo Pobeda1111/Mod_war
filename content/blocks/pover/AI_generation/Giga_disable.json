@@ -1,0 +1,31 @@
+{
+"type":"ConsumeGenerator",
+"name":"Giga_gen",
+"description":"Energy...",
+"size": 3,
+"health": 20,
+"consumes": {
+   "items": {
+      "items": [
+        { "item": "Disable_materia", "amount": 8 },
+      ]
+	  
+   }
+},
+"speed":5.0 ,
+"warmupSpeed": 1.0,
+  "itemDuration": 200.0,
+"powerProduction": 8.4,
+"research":{"parent":"Tera_materia",
+"requirements":[
+	{"item":"Disable_materia","amount":600},
+	{"item":"materia","amount":1200},
+			],
+}
+"category": "power",
+	"requirements":[
+	{"item":"materia","amount":900} ,
+	{"item":"Disable_materia","amount":400},
+    ],
+
+}

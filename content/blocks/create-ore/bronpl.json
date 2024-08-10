@@ -1,0 +1,27 @@
+{
+	"type":"GenericCrafter",
+	"name":"Brone plasts peh",
+	"description":"No stron metal...",
+	"outputItem":{"item":"Bpls","amount":1},
+	"size":2,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"craftItem":6,
+	"consumes": {
+   "power": 2,
+   "items": {
+      "items": [
+        { "item": "sr", "amount": 2 },
+        { "item": "wolfr", "amount": 1 }
+      ]
+   }
+},
+
+	"requirements":[
+	{"item":"iron","amount":70},
+	{"item":"sr","amount":40},
+	{"item":"pb","amount":40}
+			],
+	"category":"crafting",
+	}

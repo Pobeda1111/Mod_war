@@ -1,0 +1,27 @@
+{
+	"type":"GenericCrafter",
+	"name":"light-vacuume peih",
+	"description":"veru hevy...",
+	"outputItem":{"item":"alli","amount":1},
+	"size":2,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"craftItem":4,
+	"consumes": {
+   "power": 1,
+   "items": {
+      "items": [
+        { "item": "pb", "amount": 1 },
+        { "item": "li", "amount": 2 }
+      ]
+   }
+},
+
+	"requirements":[
+	{"item":"iron","amount":70},
+	{"item":"magnox","amount":80},
+	{"item":"pb","amount":60}
+			],
+	"category":"crafting",
+	}

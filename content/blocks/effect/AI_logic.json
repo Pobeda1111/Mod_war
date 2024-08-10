@@ -1,0 +1,29 @@
+{
+  "type": "MendProjector",
+  "name":"Логический процессор",
+  "health": 5,
+  "size": 6,
+  "hasPower": true,
+  "baseColor": "84f491",
+  "phaseColor": "ffd59e",
+  "healPercent": 44,
+  "phaseBoost": 6,
+  "range": 255,
+  "reload": 1,
+  "phaseRangeBoost": 30,
+  "itemCapacity": 20,
+  "useTime": 450,
+  "consumes": {
+    "power": 40,
+    },
+  "requirements": [
+    {
+      "item": "materia",
+      "amount": 100
+    },
+  ],
+  "category": "effect",
+  "research":{
+	"parent": "processorM1",
+			}
+}

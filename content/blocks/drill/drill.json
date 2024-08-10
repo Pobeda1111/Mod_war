@@ -1,0 +1,31 @@
+{
+"type": "Drill",
+"name":"Carrier",
+"description":"Diggin metal...",
+"research":"router",
+"size": 4,
+"tier": 5,
+"rotateSpeed": 3,
+"drillTime": 300,
+"liquidBoostIntensity": 2,
+"drawRim": true,
+"research": "last-core",
+"itemCapacity": 10,
+"warmupSpeed": 0.2,
+"updateEffectChance": 0.2,
+"hasLiquids": true,
+"liquidCapacity": 2,
+"consumes": {
+	"liquid": {
+		"liquid": "water",
+		"amount": 0.31,
+		"booster": true,
+		"optional": true
+	}
+},
+
+	"requirements":[
+	{"item":"iron","amount":10},
+			],
+	"category":"production",
+}

@@ -1,0 +1,28 @@
+{
+	"type":"GenericCrafter",
+	"name":"mehalca trotila",
+	"description":"Nooooo...",
+	"outputItem":{"item":"topporoh","amount":1},
+	"size":3,
+	"hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+	"craftItem":6,
+	"consumes": {
+   "power": 4,
+   "items": {
+      "items": [
+	    {"item": "magni", "amount": 1 },
+        { "item": "sera", "amount": 3 },
+        { "item": "Uran", "amount": 1 }
+      ]
+   }
+},
+
+	"requirements":[
+	{"item":"iron","amount":70},
+	{"item":"sr","amount":40},
+	{"item":"magnox","amount":40}
+			],
+	"category":"crafting",
+	}

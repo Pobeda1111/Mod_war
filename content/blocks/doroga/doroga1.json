@@ -1,0 +1,34 @@
+{
+	"type": "StackConveyor",
+"name":"doroga standart",
+"description":"Not metal...",
+"health": 300,
+"speed": 0.10,
+"itemCapacity": 10,
+"size":1,
+"loadEffect": {
+	"type": "ParticleEffect",
+	"line": true ,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+"unloadEffect": {
+	"type": "ParticleEffect",
+	"line": true,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+ "requirements":[
+ {"item":"iron", "amount":1}
+ ],
+"category": "distribution"
+"research": "last-core",
+}

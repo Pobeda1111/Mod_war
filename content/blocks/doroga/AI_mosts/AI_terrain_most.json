@@ -1,0 +1,27 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_terrain_most",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "range": 80,
+  "transportTime": 3,
+  "hasPower": false,
+  "consumes": {
+	"power": 0.144
+},
+"requirements": [
+  
+ {"item":"Materia_compressed", "amount":100},
+ {"item":"Getraund", "amount":400},
+ {"item":"Brone_material_hevy", "amount":5},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI_plasm_most",
+"researchCost": [
+ {"item":"Materia_compressed", "amount":300},
+ {"item":"Getraund", "amount":900},
+ {"item":"Brone_material_hevy", "amount":15},
+  ]
+}
+}

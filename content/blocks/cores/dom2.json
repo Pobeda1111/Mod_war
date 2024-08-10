@@ -1,0 +1,20 @@
+{
+"type":"CoreBlock",
+"name":"Большой Дом",
+"description":"Дом милый дом..."
+	"health": "2000",
+	"size": "3",
+	"armor": "10",
+	"hasItems": true,
+	"itemCapacity": "20000",
+	"unitCapModifier":"4000",
+	"unitType": "h3",
+	"requirements": [
+		{"item": "iron", "amount": 1000 }
+	],
+	"category": "effect",
+	"alwaysUnlocked": true,
+    "research": {
+        "h3": true, 
+    }
+}

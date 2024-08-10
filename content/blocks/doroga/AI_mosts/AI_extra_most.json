@@ -1,0 +1,27 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_extra_most",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "range": 80,
+  "transportTime": 6,
+  "hasPower": false,
+  "consumes": {
+	"power": 0.096
+},
+"requirements": [
+  
+  {"item":"Disable_materia", "amount":20},
+ {"item":"materia", "amount":20},
+ {"item":"Materia_compressed", "amount":20},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI_hspead_most",
+"researchCost": [
+  {"item":"Disable_materia", "amount":60},
+ {"item":"materia", "amount":60},
+ {"item":"Materia_compressed", "amount":60},
+  ]
+}
+}

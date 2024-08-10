@@ -1,0 +1,23 @@
+{
+"type":"ConsumeGenerator",
+"name":"Infinite_gen",
+"description":"Energy...",
+"size": 2,
+"health": 40,
+"consumes": {
+   "items": {
+      "items": [
+        { "item": "materia", "amount": 1 },
+      ]
+   }
+},
+"powerProduction": 0.3,
+"research":{
+	"parent": "Spase-gener",
+			}
+"category": "power",
+	"requirements":[
+	{"item":"materia","amount":60} ,
+    ],
+
+}

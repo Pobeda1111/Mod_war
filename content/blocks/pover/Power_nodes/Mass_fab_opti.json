@@ -1,0 +1,38 @@
+{
+  "type": "PowerNode",
+  "name": "Mass_fab_opti",
+  "size":2,
+  "health": 40,
+  "laserRange": 70,
+  "maxNodes": 11000,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+     {
+      "item": "Antimaterial",
+      "amount": 20
+	},
+	{
+      "item": "Qantum_optikal_material",
+      "amount": 5
+	}
+  ],
+	
+  "research":{
+	  "parent": "Hevi_mass_node",
+  "requirements": [
+    {
+      "item": "Antimaterial",
+      "amount": 60
+	},
+	{
+      "item": "Qantum_optikal_material",
+      "amount": 15
+	}
+  ],
+	},
+	
+	"consumes":{
+			"power": 40.0,
+		},
+}

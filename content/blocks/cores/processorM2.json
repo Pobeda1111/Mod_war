@@ -1,0 +1,25 @@
+{
+"type":"CoreBlock",
+"name":"Хранительная станция",
+"description":"11010000100111101101000010110110110100001011100011010000101101001101000010110000110100001011110111010000101110001101000010110101001011100010111000101110..."
+	"health": 200,
+	"tire":2,
+	"size": 2,
+	"armor": 10,
+	"hasItems": true,
+	"itemCapacity": 100,
+	"unitCapModifier":12,
+	"unitType": "AIdroid1",
+	"requirements": [
+		{"item": "materia", "amount": 1000 }
+	],
+	"rebuildable": false,
+	"CoreZone":false,
+	"requiresCoreZone":false,
+	"category": "effect",
+	"alwaysUnlocked": true,
+	
+    "research": {
+        "AIdroid": true, 
+    }
+}

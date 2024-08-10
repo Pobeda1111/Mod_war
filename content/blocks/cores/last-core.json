@@ -1,0 +1,25 @@
+{
+"type":"CoreBlock",
+"name":"Палатка",
+"description":"Дом милый дом..."
+	"health": "2000",
+	"size": "2",
+	"armor": "10",
+	"hasItems": true,
+	"itemCapacity": "170",
+	"unitCapModifier":"320",
+	"unitType": "h3",
+	"requirements": [
+		{"item": "iron", "amount": 1000 }
+	],
+	"category": "effect",
+	"alwaysUnlocked": true,
+	
+    "research": {
+	"root": true,
+    "name": "Lasts",
+    "requiresUnlock": false,
+    "planet": "lasts",
+    "h3": true, 
+    }
+}

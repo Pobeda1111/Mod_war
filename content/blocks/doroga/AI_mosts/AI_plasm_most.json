@@ -1,0 +1,27 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_plasm_most",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "range": 80,
+  "transportTime": 6,
+  "hasPower": false,
+  "consumes": {
+	"power": 0.058
+},
+"requirements": [
+  
+    {"item":"materia", "amount":70},
+	{"item":"Brone_material", "amount":70},
+	{"item":"Teknikal_materia", "amount":20},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI_ExPspead_most",
+"researchCost": [
+    {"item":"materia", "amount":210},
+	{"item":"Brone_material", "amount":210},
+	{"item":"Teknikal_materia", "amount":60},
+  ]
+}
+}

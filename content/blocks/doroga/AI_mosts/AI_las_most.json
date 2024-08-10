@@ -1,0 +1,29 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_las_most",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "range": 80,
+  "transportTime": 0.07,
+  "hasPower": true,
+  "consumes": {
+	"power": 0.016
+},
+"requirements": [
+  
+ {"item":"Ekto_plast", "amount":40},
+ {"item":"Teknikal_proto_polimer", "amount":60},
+ {"item":"Teknikal_polimer", "amount":30},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI_neytral_most",
+"researchCost": [
+  
+ {"item":"Ekto_plast", "amount":120},
+ {"item":"Teknikal_proto_polimer", "amount":180},
+ {"item":"Teknikal_polimer", "amount":90},
+ 
+  ]
+}
+}

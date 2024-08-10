@@ -1,0 +1,29 @@
+{
+	"type":"GenericCrafter",
+	"name":"nefter-t1",
+	"description":"Not metal...",
+	"outputLiquid":{"liquid":"oil","amount":10},
+	"size":4,
+	"hasPower": false,
+	"liquidCapacity": 800,
+    "hasLiquids": true,
+    "hasItems": true,
+	"research":"router"
+	"craftItem":6,
+	"consumes": {
+   "power": 2,
+   "items": {
+      "items": [
+        { "item": "wolfr", "amount": 3 }
+      ]
+   }
+},
+
+	"requirements":[
+	{"item":"iron","amount":70},
+	{"item":"sr","amount":40},
+	{"item":"pb","amount":40}
+			],
+	"category":"production",
+	"research":"router"
+	}

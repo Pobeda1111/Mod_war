@@ -1,0 +1,35 @@
+{
+	"type": "StackConveyor",
+"name":"doroga top",
+"description":"Not metal...",
+"health": 400,
+"speed": 0.50,
+"itemCapacity": 15,
+"size":1,
+"research": "doroga2",
+"loadEffect": {
+	"type": "ParticleEffect",
+	"line": true ,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+"unloadEffect": {
+	"type": "ParticleEffect",
+	"line": true,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+ "requirements":[
+ {"item":"iron", "amount":4},
+	 {"item":"Uran", "amount":4}
+ ],
+"category": "distribution"
+}

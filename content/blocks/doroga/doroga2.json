@@ -1,0 +1,36 @@
+{
+	"type": "StackConveyor",
+"name":"doroga spead",
+"description":"Not metal...",
+"health": 100,
+"speed": 0.50,
+"itemCapacity": 5,
+"size":1,
+"research": "doroga1",
+
+"loadEffect": {
+	"type": "ParticleEffect",
+	"line": true ,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+"unloadEffect": {
+	"type": "ParticleEffect",
+	"line": true,
+	"particles": 7,
+	"lifetime": 15,
+	"length": 25,
+	"cone": -360,
+	"lenFrom": 5,
+	"lenTo": 0,
+},
+ "requirements":[
+ {"item":"iron", "amount":3},
+ {"item":"magni", "amount":1}
+ ],
+"category": "distribution"
+}

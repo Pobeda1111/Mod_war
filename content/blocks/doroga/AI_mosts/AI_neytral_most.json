@@ -1,0 +1,27 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_neytral_most",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "itemCapacity": 50,
+  "range": 80,
+  "transportTime": 2,
+  "hasPower": false,
+  "consumes": {
+	"power": 0.025
+},
+"requirements": [
+  
+ {"item":"Teknikal_polimer", "amount":50},
+ {"item":"Ekto_plast", "amount":10},
+ {"item":"Teknikal_materia", "amount":40},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"Terra_AI_most",
+"researchCost": [
+    {"item":"materia", "amount":200},
+	{"item":"Materia_compressed", "amount":39},
+  ]
+}
+}

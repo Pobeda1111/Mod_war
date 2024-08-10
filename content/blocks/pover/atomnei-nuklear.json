@@ -1,0 +1,42 @@
+{
+  "type": "ImpactReactor",
+  "name":"Nuclear atom 332",
+  "description":"Nooooo...",
+  "health": 1200,
+  "researchCostMultiplier": 5.0,
+  "itemCapacity": 200,
+  "size": 4,
+  "lightRadius": 30,
+  "speed":60 ,
+  "lightColor": "73FFAEFF",
+  "baseExplosiveness": 5000,
+  "explosionRadius": 70,
+  "explosionDamage": 50000,
+  "hasLiquids": true,
+  "powerProduction": 500,
+  "warmupSpeed": 10.0,
+  "itemDuration": 70,
+  "ambientSound": "pulse",
+  "ambientSoundVolume": 0.5,
+  "plasma1": "73FFAEFF",
+  "plasma2": "57D993FF",
+  "consumes": {
+	  "power": 3,
+    "items": {
+      "items": [
+	  {"item":"U-sterg","amount": 1}
+      ],
+    },
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.3
+    }
+  },
+  "requirements": [
+	{"item":"iron","amount":10} ,
+	{"item":"magni","amount":10},
+    
+],
+  "category": "power",
+  "research": "radioactive-decayer"
+}

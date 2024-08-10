@@ -1,0 +1,39 @@
+{
+	"type": "massDriver",
+	"size": 6,
+  "name": "AI_proto_teleporter",
+  "description": "A faster on spase",
+  "health": 200,
+  "range": 4000,
+  "speed": 1000,
+  "reload": 0,
+  "itemCapacity": 50,
+  "transportTime": 0,
+  
+  "bulletSpeed":6000,
+  "knockback": 0,
+  "shootEffect": null,
+  "shootSound":null,
+  "shootEffect": null,
+  "receiveEffect":null ,
+  "consumes": {
+	"power": 14.416,
+},
+"requirements": [
+  
+ {"item":"Proto_material", "amount":100},
+ {"item":"Teknikal_materia", "amount":300},
+ {"item":"Getraund", "amount":100},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI_terrain_most",
+"researchCost": [
+
+ {"item":"Proto_material", "amount":300},
+ {"item":"Teknikal_materia", "amount":900},
+ {"item":"Getraund", "amount":300},
+
+  ]
+}
+}

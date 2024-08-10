@@ -1,0 +1,41 @@
+{
+  "type": "PowerNode",
+  "name": "Hevi_mass_node",
+  "size": 4,
+  "health": 20,
+  "laserRange": 60,
+  "maxNodes": 11000,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    {
+      "item": "Elemtar_material",
+      "amount": 20
+	},
+	{
+      "item": "Teknikal_polimer",
+      "amount": 3
+	}
+  ],
+	
+ "research":{
+	  "parent": "Hevi_mass_node",
+  "requirements": [
+    {
+      "item": "Elemtar_material",
+      "amount": 60
+	},
+	{
+      "item": "Teknikal_polimer",
+      "amount": 9
+	}
+  ],
+	}
+	
+	"consumes": 
+		{
+			"power": 50.0
+			
+		},
+}
+

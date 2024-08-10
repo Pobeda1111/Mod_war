@@ -1,0 +1,40 @@
+{
+	"type":"ItemTurret",
+ "name":"Iron Turret 2",
+ "description":"Brfrfrfrfrfrf...",
+ "health":100,
+ "size": 2,
+ "recoil":6,
+ "reloadTime":1,
+ "range":60,
+ "inaccuracy":10,
+ "rotatespeed":12,
+ "ammoTypes":{
+  "snar":{
+      "speed":14,
+      "damage":25,
+      "reloadMultiplier":1.5,
+      "Width":5,
+      "Height":9,
+      "ammoMultiplier":3,
+      "backColor":"000000",
+      "fronColor":"dcd16b"
+  },
+  "iron":{
+     "speed":19,
+     "damage":2,
+     "reloadMultiplier":1.9,
+     "Width":7,
+     "Height":9,
+     "ammoMultiplier":3,
+     "backColor":"000000",
+     "fronColor":"dcd16b"
+  }
+ },
+ "requirements":[
+ {"item":"iron", "amount":40},
+ {"item":"pb", "amount":10}
+ ],
+ "category":"turret",
+ "research":"duo"
+ }

@@ -1,0 +1,28 @@
+{
+	"type": "ItemBridge",
+  "name": "AI_foton_most",
+  "description": "A faster bridge on spase",
+  "health": 10,
+  "range": 80,
+  "transportTime": 0.001,
+  "itemCapacity": 50,
+  "hasPower": false,
+  "consumes": {
+	"power": 0.512
+},
+"requirements": [
+  
+ {"item":"Pito_qark_mateirial", "amount":20},
+ {"item":"Getraund", "amount":200},
+ 
+] 
+"category": "distribution",
+"research":{ "parent":"AI_terrain_most",
+"researchCost": [
+  
+ {"item":"Pito_qark_mateirial", "amount":60},
+ {"item":"Getraund", "amount":600},
+ 
+  ]
+}
+}
