@@ -1,0 +1,80 @@
+{
+"localizedName": "lasts",
+"mesh": {
+  "type": "NoiseMesh",
+  "seed": 69,
+  "divisions": 4,
+  "color1": "a2a2c2",
+  "color2": "22262b",
+  "radius": 0.8,
+  "octaves": 3,
+  "persistence": 0.8,
+  "scale": 1,
+  "mag": 1.5,
+}
+"cloudMesh": {
+  "type": "HexSkyMesh",
+  "seed": 96,
+  "speed": 0.4,
+  "radius": 0.05,
+  "divisions": 4,
+  "color":"4662e87e",
+  "octaves": 3,
+  "persistence": 0.7, 
+  "scl": 1,
+  "thresh": 0.4,
+}
+"generator": "SerpuloPlanetGenerator",
+
+"alwaysUnlocked": true,
+
+"sectorSize": 2,
+
+"orbitSpacing": 7,
+
+"radius": 1,
+
+"minZoom": 0.5,
+
+"drawOrbit": true,
+
+"atmosphereRadIn": 0,
+"atmosphereRadOut": 0.3,
+
+"accessible": true,
+
+"updateLighting": false,
+
+"sectorSeed": 529,
+
+"bloom": true,
+
+"visible": true,
+"allowLaunchSchematics": true,
+"allowSectorInvasion": true,
+"atmosphereColor": "aaaaaaaa",
+
+"iconColor": "29302b",
+
+"hasAtmosphere": true,
+
+"allowWaveSimulation": true,
+"allowLaunchToNumbered": true,
+
+"clearSectorOnLose": true,
+
+"allowWaves": true,
+
+"icon": "planet",
+
+"defaultCore": "last-core",
+
+"parent": "sun",
+
+"launchCandidates": [],
+
+
+"itemWhitelist": [
+  "alli", "Au", "AuU", "Bpls","iron","li","magni","magnox","snar-2","pb","poroh","sera","snar","sr","topporoh","Uran","U-sterg","wolfr",
+],
+}

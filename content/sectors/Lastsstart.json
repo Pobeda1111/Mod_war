@@ -1,0 +1,14 @@
+{
+ "sector": 0,
+    "planet": "lasts",
+    "captureWave": 23,
+    "research": {
+        "parent": "StartAi1",
+        "objectives": [
+     
+        ]
+    },
+    "difficulty": 1,
+    "overrideLaunchDefaults": true,
+    "addStartingItems": true,
+}

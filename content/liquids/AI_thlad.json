@@ -1,0 +1,11 @@
+{
+  "temperature": -50,
+  "flammability": 0,
+  "viscosity": 0.5,
+  "lightColor": "000000",
+  "heatCapacity": 1.7,
+  "explosiveness": 0,
+  "effect": "freezing",
+  "color": "000000",
+  "research": "AI-gener"
+}

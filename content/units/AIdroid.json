@@ -1,0 +1,64 @@
+{
+  "type": "flying",
+  "speed": 2.8,
+  "outlineColor": "414452FF",
+  "hitSize": 10,
+  "health": 100,
+  "mineSpeed": 2,
+  "buildSpeed": 2,
+  "mineTier": 1,
+  "itemCapacity": 17,
+  "armor": 5,
+  "faceTarget": false,
+  "rotateSpeed": 3,
+  "engineSize": 4,
+  "engineOffset": 8,
+"hovering": true,
+  "shadowElevation": 1,
+  "canBoost": false,
+  "useEngineElevation": false,
+  "trailColor": "66B1FFFF",
+  "trailLength": 6,
+  "engineColor": "66B1FFFF",
+  "immunities": [
+    "overclock",
+    "freezing"
+  ],
+  "weapons": [
+    {
+      "name": "AIdroid-cannon",
+      "x": 4,
+      "y": -3,
+      "reload": 50,
+      "top": false,
+      "rotate": false,
+      "shootY": 6,
+      "rotateSpeed": 4,
+      "recoil": 1,
+      "inaccuracy": 10,
+      "shoot": {
+        "type": "shootPattern",
+        "shots": 4,
+        "shotDelay": 3
+      },
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "basicBulletType",
+        "homingPower": 1,
+        "homingRange": 60,
+        "homingDelay": 8,
+        "trailColor": "66B1FFFF",
+        "trailLength": 8,
+        "trailWidth": 2,
+        "buildingDamageMultiplier": 1,
+        "lifetime": 30,
+        "damage": 10,
+        "statusDuration": 10,
+        "speed": 12,
+        "width": 9,
+        "height": 9,
+      }
+    }
+  ],
+
+}

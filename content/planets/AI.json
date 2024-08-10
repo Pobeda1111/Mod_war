@@ -1,0 +1,104 @@
+{
+"localizedName": "AI",
+"mesh": {
+  "type": "NoiseMesh",
+  "seed": 69,
+  "divisions": 4,
+  "color1": "a2a2c2",
+  "color2": "22262b",
+  "radius": 0.8,
+  "octaves": 3,
+  "persistence": 0.8,
+  "scale": 1,
+  "mag": 1.5,
+}
+"cloudMesh": {
+  "type": "HexSkyMesh",
+  "seed": 96,
+  "speed": 0.4,
+  "radius": 0.05,
+  "divisions": 4,
+  "color":"4662e87e",
+  "octaves": 3,
+  "persistence": 0.7, 
+  "scl": 1,
+  "thresh": 0.4,
+}
+"alwaysUnlocked": true,
+"sectorSize": 2,
+"orbitSpacing": 12,
+"radius": 1,
+"minZoom": 0.5,
+"drawOrbit": false,
+"atmosphereRadIn": 0,
+"atmosphereRadOut": 0.3,
+
+"accessible": true,
+
+"updateLighting": false,
+
+
+"bloom": false,
+
+"visible": false,
+"allowSectorInvasion": true,
+"atmosphereColor": "aaaaaaaa",
+
+"iconColor": "29302b",
+
+"hasAtmosphere": false,
+
+"allowWaveSimulation": true,
+"allowLaunchToNumbered": true,
+
+"clearSectorOnLose": true,
+
+"allowWaves": true,
+
+"icon": "planet",
+"accessible": true,
+"defaultCore": "processorM1"
+"clearSectorOnLose": true,
+
+  "allowWaveSimulation ": true,
+  "allowSectorInvasion ": true,
+  "allowLaunchSchematics ": true,
+  "enemyCoreSpawnReplace ": true,
+  "allowLaunchLoadout": true,
+
+"parent": "sun",
+
+"launchCandidates": [
+],
+"hiddenItems": [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "sand"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+],
+
+"itemWhitelist": [
+"materia"
+"Disable_materia"
+],
+
+"generator": {"type": "PerseaPlanetGenerator"}
+}

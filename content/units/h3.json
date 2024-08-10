@@ -1,0 +1,66 @@
+{
+  "type": "flying",
+  "speed": 2.8,
+  "outlineColor": "414452FF",
+  "hitSize": 10,
+  "unloadable": true,
+    "breakable": false,
+  "health": 111160,
+  "mineSpeed": 0.3,
+  "buildSpeed": 0.3,
+  "mineTier": 1,
+  "itemCapacity": 700,
+  "armor": 5,
+  "faceTarget": false,
+  "rotateSpeed": 3,
+  "engineSize": 4,
+  "engineOffset": 8,
+  "hovering": false,
+  "shadowElevation": 0.1,
+  "canBoost": false,
+  "useEngineElevation": false,
+  "trailColor": "66B1FFFF",
+  "trailLength": 6,
+  "engineColor": "66B1FFFF",
+  "immunities": [
+    "overclock",
+    "freezing"
+  ],
+  "weapons": [
+    {
+      "name": "h3-canon",
+      "x": 0,
+      "y": 0,
+      "reload": 60,
+      "top": true,
+      "rotate": true,
+      "shootY": 6,
+      "rotateSpeed": 4,
+      "recoil": 2,
+      "inaccuracy": 10,
+      "shoot": {
+        "type": "shootPattern",
+        "shots": 4,
+        "shotDelay": 3
+      },
+      "shootSound": "shoot",
+      "bullet": {
+        "type": "basicBulletType",
+        "homingPower": 0.07,
+        "homingRange": 60,
+        "homingDelay": 8,
+        "trailColor": "66B1FFFF",
+        "trailLength": 8,
+        "trailWidth": 2,
+        "buildingDamageMultiplier": 0.80,
+        "lifetime": 30,
+        "damage": 0,
+        "statusDuration": 10,
+        "speed": 0,
+        "width": 9,
+        "height": 9,
+      }
+    }
+  ],
+
+}

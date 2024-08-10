@@ -1,0 +1,8 @@
+{
+ "sector": 33,
+    "planet": "AI",
+    "captureWave": 12,
+    "difficulty": 1,
+    "overrideLaunchDefaults": false,
+    "addStartingItems": true,
+}

@@ -1,0 +1,36 @@
+{
+"type": "naval",
+"name": "Ship",
+"itemCapacity": 60,
+"speed": 1.2,
+"drag": 0.4,
+"hitsize": 12,
+"rotateSpeed": 3,
+"health": 450,
+"armor": 5,
+"visualElevation": 0.4,
+"research": "router",
+"weapons": [
+{
+  "name": "Ship-weapon",
+  "reload": 3,
+  "rotate": true,
+  "x": 4,
+  "y": 1.5,
+  "bullet": {
+    "type": "missileBulletType",
+    "speed": 2,
+    "height": 8,
+    "damage": 5,
+    "width": 8,
+    "homingRange": 40,
+    "hitColor": "80CB71",
+    "color": "80CB71",
+    "shootEffect": "sparkShoot",
+    "despawnEffect": "none",
+    "lifetime": 300,
+    "knockback": 1.34,
+  }
+},
+],
+}
