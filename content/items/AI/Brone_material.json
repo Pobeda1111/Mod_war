@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Brone_material",
+  "description": "A neu material",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 2
+  "research":"materia",
+}

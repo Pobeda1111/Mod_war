@@ -1,0 +1,9 @@
+{
+  "tipe": "material",
+  "name": "Uranov stergen",
+  "description": "A neu material",
+  "cost": 1.0,
+  "hardness": 5,
+  "color": "000000",
+  "tier": 5
+}

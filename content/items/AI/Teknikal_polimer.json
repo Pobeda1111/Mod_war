@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Teknikal_polimer",
+  "description": "A neu polimer",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 3
+  "research":"Teknikal Materia",
+}

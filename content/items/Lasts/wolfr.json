@@ -1,0 +1,9 @@
+{
+  "tipe": "material",
+  "name": "Wolifram",
+  "description": "A neu material",
+  "cost": 1.0,
+  "hardness": 2,
+  "color": "000000",
+  "tier": 3
+}

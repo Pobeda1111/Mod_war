@@ -1,0 +1,9 @@
+{
+  "tipe": "material",
+  "name": "hevu list",
+  "description": "A neu material",
+  "cost": 1.0,
+  "hardness": 4,
+  "color": "000000",
+  "tier": 4
+}

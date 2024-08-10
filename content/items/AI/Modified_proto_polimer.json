@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Modiied_Teknikal_Pprotopolimer",
+  "description": "A neu polimer",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 5
+  "research":"Teknikal proto polimer",
+}

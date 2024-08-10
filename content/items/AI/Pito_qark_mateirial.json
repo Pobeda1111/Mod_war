@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Pito_qark_matter",
+  "description": "A smol material",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 3
+  "research":"Materia compressed",
+}

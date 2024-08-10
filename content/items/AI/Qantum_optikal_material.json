@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Qantum_optikal_material",
+  "description": "A material",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 6
+  "research":"Proto material",
+}

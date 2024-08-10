@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Antimaterial",
+  "description": "A not stabiliti position...",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 6
+  "research":"Neutron immaterial",
+}

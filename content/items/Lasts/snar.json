@@ -1,0 +1,9 @@
+{
+  "tipe": "material",
+  "name": "snarad",
+  "description": "A neu material",
+  "cost": 1.0,
+  "hardness": 3,
+  "color": "000000",
+  "tier": 3
+}

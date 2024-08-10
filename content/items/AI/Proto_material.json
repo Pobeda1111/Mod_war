@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Proto_material",
+  "description": "A material",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 4
+  "research":"Pito qark matter",
+}

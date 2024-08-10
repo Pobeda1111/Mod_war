@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Energu_materia",
+  "description": "A not stabiliti position...",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 2
+  "research":"Disable_materia",
+}

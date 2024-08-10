@@ -1,0 +1,10 @@
+{
+  "tipe": "material",
+  "name": "Materia_distamiled",
+  "description": "A rand material",
+  "cost": 1.0,
+  "hardness": 1,
+  "color": "000000",
+  "tier": 1
+  "research":"materia",
+}
